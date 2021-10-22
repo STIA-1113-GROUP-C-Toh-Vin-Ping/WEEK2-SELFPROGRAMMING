@@ -1,0 +1,16 @@
+package formatingOutput;
+
+public class FormatingOutput1 {
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.printf("%-10s", "Total:");
+		System.out.printf("%10.2f", 17.29);
+		System.out.println();
+		System.out.println();
+		System.out.printf("%-10s%10.2f", "Total:", 17.29);
+
+	}
+
+}
